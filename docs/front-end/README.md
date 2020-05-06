@@ -2,6 +2,8 @@
 title: 前端系列
 ---
 
+![](./knowledge.png)
+
 ### JS进阶
 
 * [js执行机制详解](/front-end/js/event-loop/)
