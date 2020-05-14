@@ -112,10 +112,10 @@ console.log('console')
 
 第一轮事件循环
 
--  宏任务
-  -  整体script
--  微任务
-  -  then
+- 宏任务
+  - 整体script
+- 微任务
+  - then
 
 1. 首先整体script作为宏任务，进入主线程。
 2. 先遇到 setTimeout 注册后派发到宏任务。
@@ -124,10 +124,10 @@ console.log('console')
 
 开始第二轮
 
--  宏任务
-  -  setTimeout
--  微任务
-  -  无
+- 宏任务
+  - setTimeout
+- 微任务
+  - 无
 
 1. 第一轮事件循环结束了，我们开始第二轮循环，当然要从宏任务Event Queue 开始发现 setTimeout 立即执行。
 
