@@ -22,6 +22,7 @@ title: 前端系列
 
 * [React函数式组件优化](/front-end/react/hooks/optimize)
 * [React Hooks实现原理](/front-end/react/hooks/)
+* [React v16.4的生命周期理解](/front-end/react/lifecycle/)
 * [React高阶组件](/front-end/react/hoc/)
 * [Redux实现原理](/front-end/react/redux/)
 * [深入理解setState](/front-end/react/source/setState)

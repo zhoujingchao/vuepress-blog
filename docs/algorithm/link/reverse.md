@@ -20,12 +20,12 @@ const head = {
   }
 }
 
-// 局部反转构成整体反转
-// 1,2,3,4
-// 2,1,3,4
-// 3,2,1,4
-// 4,3,2,1
-function reverser(head) {
+// 以头部节点为基准节点
+// 将基准节点的下一个节点移到头部，直到基准节点的下一个节点为null
+// 1，2，3
+// 2，1，3
+// 3，2，1
+function reverse(head) {
   let prev = head
   let curr = null
   while (head && head.next) {
@@ -38,5 +38,5 @@ function reverser(head) {
   return prev
 }
 
-reverser(head)
+reverse(head)
 ```
