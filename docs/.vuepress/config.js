@@ -35,6 +35,7 @@ module.exports = {
           children: [
             '/front-end/react/hooks/optimize',
             '/front-end/react/hooks/',
+            '/front-end/react/lifecycle/',
             '/front-end/react/hoc/',
             '/front-end/react/redux/',
             '/front-end/react/source/setState',

@@ -162,3 +162,7 @@ class ErrorBoundary extends React.Component {
 ## 新的生命周期总结
 
 ![](./img/new-lifecycle.jpeg)
+
+## 参考文章
+
+> https://reactjs.org/docs/react-component.html#getsnapshotbeforeupdate
