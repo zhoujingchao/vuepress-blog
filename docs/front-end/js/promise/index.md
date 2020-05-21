@@ -186,7 +186,7 @@ function Promise(fn) {
 
   function handle(callback) {
     if (state === 'pendding') {
-      callbacks.push(onFulfilled)
+      callbacks.push(callback)
       return this
     }
 
@@ -275,7 +275,7 @@ function Promise(fn) {
 
   function handle(callback) {
     if (state === 'pendding') {
-      callbacks.push(onFulfilled)
+      callbacks.push(callback)
       return this
     }
 
@@ -342,7 +342,7 @@ getUserInfo()
 ```javascript
 function handle(callback) {
   if (state === 'pendding') {
-    callbacks.push(onFulfilled)
+    callbacks.push(callback)
     return this
   }
 
