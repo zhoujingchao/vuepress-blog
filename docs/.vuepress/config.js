@@ -50,6 +50,7 @@ module.exports = {
         {
           title: '前端工程化',
           children: [
+            '/front-end/build/webpack/optimize',
             '/front-end/build/webpack/plugin',
             '/front-end/build/webpack/',
             '/front-end/build/module/',
