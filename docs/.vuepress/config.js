@@ -4,7 +4,7 @@ module.exports = {
   // base: '/vuepress-blog/',
   themeConfig: {
     sidebarDepth: 2,
-    lastUpdated: 'Last Updated',
+    // lastUpdated: 'Last Updated',
     nav: [
       { text: '前端相关', link: '/front-end/' },
       { text: 'Node实践', link: '/node/' },
@@ -126,7 +126,9 @@ module.exports = {
         {
           title: '数组',
           children: [
-            '/algorithm/array/twosum',
+            '/algorithm/array/twoSum',
+            '/algorithm/array/threeSum',
+            '/algorithm/array/addTwoNumbers',
             '/algorithm/array/longestCommonPrefix',
             '/algorithm/array/sort',
           ]
@@ -136,7 +138,12 @@ module.exports = {
           children: [
             '/algorithm/string/replaceSpace',
             '/algorithm/string/reverse',
+            '/algorithm/string/longestPalindrome',
             '/algorithm/string/rotate',
+            '/algorithm/string/lengthOfLongestSubstring',
+            '/algorithm/string/isValid',
+            '/algorithm/string/generateParenthesis',
+            '/algorithm/string/longestValidParentheses'
           ]
         },
       ]

@@ -24,7 +24,9 @@ title: 数据结构与算法
 
 ### 数组
 
-* [两数之和](/algorithm/array/twosum)
+* [两数之和](/algorithm/array/twoSum)
+* [三数之和](/algorithm/array/threeSum)
+* [两数相加](/algorithm/array/addTwoNumbers)
 * [最长公共前缀](/algorithm/array/longestCommonPrefix)
 * [排序](/algorithm/array/sort)
 
@@ -32,4 +34,9 @@ title: 数据结构与算法
 
 * [替换空格](/algorithm/string/replaceSpace)
 * [回文数](/algorithm/string/reverse)
+* [最长回文子串](/algorithm/string/longestPalindrome)
 * [字符串反转](/algorithm/string/rotate)
+* [无重复字符的最长子串](/algorithm/string/lengthOfLongestSubstring)
+* [有效的括号](/algorithm/string/isValid)
+* [括号生成](/algorithm/string/generateParenthesis)
+* [最长有效括号](/algorithm/string/longestValidParentheses)

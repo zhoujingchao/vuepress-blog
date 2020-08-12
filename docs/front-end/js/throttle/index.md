@@ -41,11 +41,11 @@
     // 节流 控制执行间隔时间 防止频繁触发 scroll resize mousemove
     let throttle = (fn, delay) => {
       let run = true
-      return function() {
+      return function(...args) {
         if (!run) return // 如果开关关闭了，就不用往下执行逻辑代码
         run = false // 持续触发的话，就会命中上面的判断条件
-        setTimeout(() => {
-          fn.apply(this, arguments)
+        setTimeout(function() {
+          fn.apply(this, args)
           run = true // 时间到达后，打开开关，执行逻辑
         }, delay)
       }
@@ -84,10 +84,10 @@
   <script>
     let debounce = (fn, wait) => {
       let timer = null
-      return function() {
+      return function(...args) {
         if (timer) clearTimeout(timer)
-        timer = setTimeout(() => {
-          fn.apply(this, arguments)
+        timer = setTimeout(function() {
+          fn.apply(this, args)
         }, wait)
       }
     }

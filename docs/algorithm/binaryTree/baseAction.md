@@ -68,8 +68,8 @@ function inOrder(node) {
 function prevOrder(node) {
   if (node) {
     console.log(node.key)
-    inOrder(node.left)
-    inOrder(node.right)
+    prevOrder(node.left)
+    prevOrder(node.right)
   }
 }
 ```
@@ -79,8 +79,8 @@ function prevOrder(node) {
 // 先左子树，后右子树，再根节点
 function postOrder(node) {
   if (node) {
-    inOrder(node.left)
-    inOrder(node.right)
+    postOrder(node.left)
+    postOrder(node.right)
     console.log(node.key)
   }
 }
