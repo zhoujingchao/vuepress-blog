@@ -35,6 +35,7 @@ title: 前端系列
 
 ### 前端工程化
 
+- [前端性能优化原理与实践](/front-end/build/front/)
 - [webpack4 性能调优](/front-end/build/webpack/optimize)
 - [编写 webpack 的自定义插件](/front-end/build/webpack/plugin)
 - [webpack 工作原理](/front-end/build/webpack/)
@@ -56,6 +57,10 @@ title: 前端系列
 
 - [移动端适配方案](/front-end/mobile/rem/)
 - [Hybrid App 的理解与思考](/front-end/mobile/jsbridge/)
+
+### 小程序
+
+- [支付宝&手淘原生小程序 gulp 工程化](/front-end/miniapp/build/)
 
 ### 绘图
 
