@@ -206,6 +206,16 @@ const watching = () => {
 exports.dev = series(clean, buildApp, js, watching);
 ```
 
+### 快速生成页面和组件模版
+
+准备好自行需要的页面和组件模版
+
+<img width="50%" src="./img/template.png" />
+
+通过 [inquirer](https://www.npmjs.com/package/inquirer)库创建流程，最终按流程生成对应的模版文件，查看代码移步[demo](https://github.com/zhoujingchao/miniapp-gulp-demo)。
+
+![](./img/create.png)
+
 ## feature 待扩展
 
 webpack 更加熟练一些，后续还是会通过 webpack 去做下面的扩展。
@@ -221,6 +231,6 @@ webpack 更加熟练一些，后续还是会通过 webpack 去做下面的扩展
 - 生产环境源码的压缩和混淆
 - 页面组件的按需加载
 
-### 单测
+### 引入单测
 
 核心模块，公共模块等
