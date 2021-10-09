@@ -29,6 +29,7 @@ title: 数据结构与算法
 * [两数相加](/algorithm/array/addTwoNumbers)
 * [最长公共前缀](/algorithm/array/longestCommonPrefix)
 * [排序](/algorithm/array/sort)
+* [分页](/algorithm/array/paging)
 
 ### 字符串
 
@@ -40,3 +41,4 @@ title: 数据结构与算法
 * [有效的括号](/algorithm/string/isValid)
 * [括号生成](/algorithm/string/generateParenthesis)
 * [最长有效括号](/algorithm/string/longestValidParentheses)
+* [字符串解析成键值对](/algorithm/string/stringToObj)

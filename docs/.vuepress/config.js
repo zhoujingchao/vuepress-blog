@@ -137,6 +137,7 @@ module.exports = {
             '/algorithm/array/addTwoNumbers',
             '/algorithm/array/longestCommonPrefix',
             '/algorithm/array/sort',
+            '/algorithm/array/paging',
           ],
         },
         {
@@ -150,6 +151,7 @@ module.exports = {
             '/algorithm/string/isValid',
             '/algorithm/string/generateParenthesis',
             '/algorithm/string/longestValidParentheses',
+            '/algorithm/string/stringToObj',
           ],
         },
       ],
