@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Zhoujc的blog',
+  title: 'Zhoujc\'s blog',
   description: '知识沉淀，好记性不如烂笔头',
   // base: '/vuepress-blog/',
   themeConfig: {
@@ -9,7 +9,8 @@ module.exports = {
       { text: '前端相关', link: '/front-end/' },
       { text: 'Node实践', link: '/node/' },
       { text: '数据结构与算法', link: '/algorithm/' },
-      { text: 'Github', link: 'https://github.com/zhoujingchao/vuepress-blog' },
+      { text: 'AI', link: '/ai/'},
+      // { text: 'Github', link: 'https://github.com/zhoujingchao/vuepress-blog' },
     ],
     sidebar: {
       '/front-end/': [
@@ -89,7 +90,7 @@ module.exports = {
         },
         {
           title: 'CSS',
-          children: ['/front-end/css/box/'],
+          children: ['/front-end/css/box/', '/front-end/css/flex/'],
         },
       ],
       '/node/': [
@@ -99,9 +100,9 @@ module.exports = {
         '/node/error/',
         '/node/egg/rocketmq',
         '/node/koa/',
-        '/node/puppeteer/performance',
-        '/node/puppeteer/screenshot',
         '/node/puppeteer/install',
+        '/node/puppeteer/screenshot',
+        '/node/puppeteer/performance',
       ],
       '/algorithm/': [
         '/algorithm/',
@@ -155,6 +156,10 @@ module.exports = {
           ],
         },
       ],
+      '/ai/': [
+        '/ai/',
+        '/ai/deepseek/',
+      ]
     },
   },
 };
