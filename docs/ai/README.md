@@ -2,4 +2,4 @@
 title: AI
 ---
 
-- [deepseek极速接入](/ai/deepseek/)
+- [# 满血 DeepSeek-R1 免费替代方案](/ai/deepseek/)
