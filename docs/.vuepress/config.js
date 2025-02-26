@@ -159,6 +159,7 @@ module.exports = {
       '/ai/': [
         '/ai/',
         '/ai/deepseek/',
+        '/ai/deepseek-use/',
       ]
     },
   },
