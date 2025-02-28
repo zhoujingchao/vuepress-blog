@@ -160,6 +160,7 @@ module.exports = {
         '/ai/',
         '/ai/deepseek/',
         '/ai/deepseek-use/',
+        '/ai/cursor1/',
       ]
     },
   },
