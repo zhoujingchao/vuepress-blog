@@ -161,6 +161,12 @@ module.exports = {
         '/ai/deepseek/',
         '/ai/deepseek-use/',
         '/ai/cursor1/',
+        '/ai/cursor2/',
+        '/ai/mcp1/',
+        '/ai/tools/',
+        '/ai/gemini2/',
+        '/ai/title-png/',
+        '/ai/mcp-prompt/',
       ]
     },
   },
