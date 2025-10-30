@@ -24,6 +24,10 @@ title: 数据结构与算法
 
 ### 数组
 
+* [二分查找](/algorithm/array/binarySearch)
+* [移除元素](/algorithm/array/delete)
+* [有序数组平方](/algorithm/array/arraySquare)
+* [长度最小子数组](/algorithm/array/minArray)
 * [两数之和](/algorithm/array/twoSum)
 * [三数之和](/algorithm/array/threeSum)
 * [两数相加](/algorithm/array/addTwoNumbers)
