@@ -133,6 +133,10 @@ module.exports = {
         {
           title: '数组',
           children: [
+            '/algorithm/array/binarySearch',
+            '/algorithm/array/delete',
+            '/algorithm/array/arraySquare',
+            '/algorithm/array/minArray',
             '/algorithm/array/twoSum',
             '/algorithm/array/threeSum',
             '/algorithm/array/addTwoNumbers',
